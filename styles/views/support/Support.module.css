@@ -1,0 +1,953 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+@font-face {
+  font-family: SFFedora;
+  src: url("../../all/fonts/SFFedora.ttf");
+}
+
+#supportCnt #top {
+  height: 650px;
+}
+
+#supportCnt #top .top_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#supportCnt #top .top_bg .top_bg_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#supportCnt #top .top_bg .top_bg_overlay div {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  -webkit-filter: drop-shadow(0 2px 2px black);
+          filter: drop-shadow(0 2px 2px black);
+}
+
+#supportCnt #top .top_bg .top_bg_overlay div h1 {
+  font-family: SFFedora;
+  font-size: clamp(4rem, 5vw, 5rem);
+  padding-bottom: 10px;
+}
+
+#supportCnt #top .top_bg .top_bg_overlay div p {
+  font-family: "Poppins";
+  font-size: 23px;
+}
+
+#supportCnt #aboveForm {
+  overflow: hidden;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#supportCnt #aboveForm .above_form_cnt {
+  width: 100%;
+  max-width: 800px;
+  margin: auto !important;
+  font-family: "Poppins";
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+  font-family: SFFedora;
+  font-size: clamp(3rem, 3vw, 3rem);
+  font-weight: 700;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+  max-width: 55px;
+  margin-left: 20px;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+  font-size: 19px;
+  padding-bottom: 30px;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+  margin: auto !important;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+  display: inline-block;
+  font-size: 19px;
+  color: #870fac;
+  text-decoration: none;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a:hover {
+  color: #a130c3;
+}
+
+#supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a span {
+  margin-left: 10px;
+  color: black;
+}
+
+#supportCnt #supportForm {
+  overflow: hidden;
+  padding-bottom: 150px;
+}
+
+#supportCnt #supportForm form {
+  max-width: 950px;
+  width: 100%;
+  margin: auto !important;
+  font-family: "Poppins";
+}
+
+#supportCnt #supportForm form .form_set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+#supportCnt #supportForm form .form_set .form_input_holder {
+  max-width: 49%;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  height: 50px;
+  background-color: ghostwhite;
+  border: 1px solid ghostwhite;
+}
+
+#supportCnt #supportForm form .form_set .form_input_holder input {
+  width: 100%;
+  max-width: 95%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: ghostwhite;
+  padding-left: 10px;
+}
+
+#supportCnt #supportForm form .form_set .form_input_holder span {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  color: #870fac;
+  font-size: 20px;
+}
+
+#supportCnt #supportForm form .form_bottom_set {
+  display: block;
+  width: 100%;
+}
+
+#supportCnt #supportForm form .form_bottom_set .form_input_holder {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: ghostwhite;
+  border: 1px solid ghostwhite;
+  margin-bottom: 30px;
+}
+
+#supportCnt #supportForm form .form_bottom_set .form_input_holder input {
+  position: absolute;
+  background-color: ghostwhite;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+}
+
+#supportCnt #supportForm form .form_bottom_set .form_input_holder span {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  color: #870fac;
+  font-size: 20px;
+}
+
+#supportCnt #supportForm form .form_bottom_set div textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: ghostwhite;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+#supportCnt #supportForm form .form_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+  padding-top: 30px;
+}
+
+#supportCnt #supportForm form .form_buttons button {
+  background-color: #870fac;
+  color: white;
+  font-size: 21px;
+  padding: 10px;
+}
+
+#supportCnt #supportForm form .form_buttons button:hover {
+  background-color: #a130c3;
+}
+
+@media all and (max-width: 1995px) {
+  #supportCnt #top {
+    height: 600px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 90px;
+    max-width: 90%;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 70%;
+  }
+  #supportCnt #supportForm form {
+    max-width: 870px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #supportCnt #top {
+    height: 600px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 85%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 21px;
+  }
+  #supportCnt #aboveForm {
+    height: 400px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 550px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+    font-size: 32px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+    display: none;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 17px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 400px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 90%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #supportCnt #top {
+    height: 400px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 85%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 36px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 16px;
+  }
+  #supportCnt #aboveForm {
+    height: 350px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 85%;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text h2 {
+    font-size: 28px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 16px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 400px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 15px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 50px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 90%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 419px) {
+  #supportCnt #top {
+    height: 300px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 85%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 26px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 15px;
+  }
+  #supportCnt #aboveForm {
+    height: 390px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 85%;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+    font-size: 24px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+    display: none;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 15px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 400px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a:last-child {
+    margin-bottom: 0;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 50px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 90%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 14px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 14px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 14px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 16px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #supportCnt #top {
+    height: 300px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 80%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 16px;
+  }
+  #supportCnt #aboveForm {
+    height: 340px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 400px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+    font-size: 28px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+    display: block;
+    max-width: 30px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 15px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 370px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 50px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 75%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 14px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 14px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 14px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 16px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #supportCnt #top {
+    height: 300px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 80%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 19px;
+  }
+  #supportCnt #aboveForm {
+    height: 365px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 650px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+    font-size: 32px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+    display: block;
+    max-width: 40px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 17px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 90px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 85%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #supportCnt #top {
+    height: 340px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 80%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 45px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 19px;
+  }
+  #supportCnt #aboveForm {
+    height: 365px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 500px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div {
+    padding-bottom: 10px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div h2 {
+    font-size: 34px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text div img {
+    display: block;
+    max-width: 35px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 17px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 50px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 75%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #supportCnt #top {
+    height: 420px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 80%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+  #supportCnt #aboveForm {
+    height: 465px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 750px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text h2 {
+    font-size: 42px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 19px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 110px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 75%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #supportCnt #top {
+    height: 420px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 80%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+  #supportCnt #aboveForm {
+    height: 365px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 650px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text h2 {
+    font-size: 34px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 17px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 110px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 75%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #supportCnt #top {
+    height: 620px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div {
+    max-width: 70%;
+    padding-top: 70px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 65px;
+    padding-bottom: 5px;
+  }
+  #supportCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+  #supportCnt #aboveForm {
+    height: 465px;
+  }
+  #supportCnt #aboveForm .above_form_cnt {
+    max-width: 750px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text h2 {
+    font-size: 42px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_text p {
+    font-size: 19px;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact {
+    max-width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  #supportCnt #aboveForm .above_form_cnt .above_form_cnt_contact a {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  #supportCnt #supportForm {
+    padding-bottom: 110px;
+  }
+  #supportCnt #supportForm form {
+    max-width: 65%;
+  }
+  #supportCnt #supportForm form .form_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder {
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+  #supportCnt #supportForm form .form_set .form_input_holder input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set input {
+    font-size: 16px;
+  }
+  #supportCnt #supportForm form .form_bottom_set textarea {
+    font-size: 16px;
+    height: 180px;
+  }
+  #supportCnt #supportForm form .form_buttons {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #supportCnt #supportForm form .form_buttons button {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=Support.module.css.map */

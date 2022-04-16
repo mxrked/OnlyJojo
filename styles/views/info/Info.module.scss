@@ -1,0 +1,879 @@
+@import "../../all/colors/Colors.scss";
+@import "../../all/fonts/Fonts.scss";
+@import "../../all/mixins/Mixins.scss";
+
+@font-face {
+  font-family: SFFedora;
+  src: url("../../all/fonts/SFFedora.ttf");
+}
+
+// Non Responsive
+#infoCnt {
+  // Top
+  #top {
+    height: 600px;
+
+    .top_bg {
+      @include bGSU;
+      background-position: top center;
+      position: relative;
+
+      .top_bg_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        @include tLC;
+
+        div {
+          text-align: center;
+          color: white;
+          padding-top: 120px;
+          filter: drop-shadow(0 2px 2px black);
+
+          h1 {
+            font-family: SFFedora;
+            font-size: clamp(4rem, 5vw, 5rem);
+            padding-bottom: 10px;
+          }
+
+          p {
+            font-family: $P;
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+
+  // Background
+  #background {
+    padding-top: 180px;
+    padding-bottom: 70px;
+    overflow: hidden;
+
+    .background_cnt {
+      max-width: 1400px;
+      width: 100%;
+      @include qC;
+
+      .background_cnt_box {
+        .background_cnt_row {
+          .background_cnt_side {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .background_text {
+              max-width: 85%;
+
+              div {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-bottom: 20px;
+
+                h1 {
+                  font-family: SFFedora;
+                  font-size: 55px;
+                }
+
+                img {
+                  max-width: 60px;
+                  margin-left: 30px;
+                }
+              }
+
+              p {
+                font-family: $P;
+                font-size: 18px;
+
+                a {
+                  color: rgb(135, 15, 172);
+                  font-weight: $Bold;
+
+                  &:hover {
+                    color: rgb(161, 48, 195);
+                  }
+                }
+              }
+            }
+
+            .background_bg {
+              @include bGSU;
+              max-width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Jojos
+  #jojos {
+    padding-top: 110px;
+    padding-bottom: 95px;
+    overflow: hidden;
+
+    .jojos_heading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 30px;
+
+      h1 {
+        font-family: SFFedora;
+        font-size: 55px;
+      }
+
+      img {
+        max-width: 60px;
+        margin-left: 30px;
+      }
+    }
+
+    .hover_hint {
+      text-align: center;
+      display: block;
+      padding-bottom: 50px;
+      font-family: $P;
+      font-size: 17px;
+    }
+
+    .jojos_box {
+      max-width: 95%;
+      width: 100%;
+      @include qC;
+      overflow: hidden;
+
+      .jojo_row_holder {
+        width: 100%;
+        max-width: 1400px;
+        @include qC;
+        margin-bottom: 50px !important;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        .jojo {
+          .jojo_side {
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .jojo_side_img_holder {
+              width: 290px;
+              height: 290px;
+              position: relative;
+              overflow: hidden;
+              @include tLC;
+
+              &:hover {
+                .jojo_details {
+                  opacity: 1;
+                }
+              }
+
+              img {
+                position: absolute;
+                width: 100%;
+              }
+
+              .jojo_details {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 100;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: white;
+                font-family: $P;
+                overflow: hidden;
+                overflow-y: auto;
+                opacity: 0;
+
+                .jojo_detail {
+                  display: grid;
+                  padding: 10px;
+
+                  .jojo_detail_name {
+                    font-weight: $Bold;
+                    font-size: 15px;
+                  }
+
+                  .jojo_detail_text {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+
+            .jojo_side_text {
+              text-align: right;
+              max-width: 650px;
+              width: 100%;
+              @include qC;
+              font-family: $P;
+
+              h2 {
+                font-weight: $Bold;
+                font-size: 35px;
+                padding-bottom: 20px;
+              }
+
+              p {
+                font-size: 18px;
+              }
+
+              a {
+                display: inline-block;
+                color: rgb(135, 15, 172);
+                font-weight: $Bold;
+                @include customCursor;
+
+                &:hover {
+                  color: rgb(161, 48, 195);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Responsive
+@media all and (max-width: 1995px) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 550px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 991px) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 550px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 50px;
+
+            h1 {
+              font-size: 55px;
+            }
+
+            p {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
+
+    // Background
+    #background {
+      padding-top: 20px;
+      padding-bottom: 80px;
+      .background_cnt {
+        max-width: 100%;
+        .background_cnt_box {
+          .background_cnt_row {
+            .background_cnt_side {
+              width: 100%;
+              text-align: center;
+              justify-content: center;
+
+              .background_text {
+                div {
+                  justify-content: center;
+                  img {
+                    display: none;
+                  }
+
+                  h1 {
+                    font-size: 36px;
+                  }
+                }
+
+                p {
+                  font-size: 16px;
+                  max-width: 90%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+
+              .background_bg {
+                @include qC;
+                max-width: 600px;
+              }
+            }
+
+            #backgroundL {
+              height: 350px;
+            }
+
+            #backgroundR {
+              height: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    // Jojos
+    #jojos {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .jojos_heading {
+        padding-bottom: 30px;
+        img {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+      }
+
+      .hover_hint {
+        display: none;
+      }
+
+      .jojos_box {
+        width: 100%;
+        max-width: 95%;
+
+        .jojo_row_holder {
+          margin-bottom: 10px !important;
+
+          &:last-child {
+            margin-bottom: 0 !important;
+          }
+          .jojo {
+            .jojo_side {
+              width: 100%;
+              justify-content: center;
+              height: 280px;
+
+              .jojo_side_img_holder {
+                border-radius: 50%;
+                max-width: 210px;
+                height: 210px;
+
+                .jojo_details {
+                  display: none;
+                }
+              }
+
+              .jojo_side_text {
+                text-align: center;
+
+                h2 {
+                  font-size: 28px;
+                }
+
+                p {
+                  font-size: 16px;
+                  max-width: 90%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 350px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 50px;
+
+            h1 {
+              font-size: 36px;
+            }
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    // Background
+    #background {
+      padding-top: 40px;
+      padding-bottom: 45px;
+      .background_cnt {
+        max-width: 100%;
+        .background_cnt_box {
+          .background_cnt_row {
+            .background_cnt_side {
+              width: 100%;
+              text-align: center;
+              justify-content: center;
+
+              .background_text {
+                div {
+                  justify-content: center;
+                  img {
+                    display: none;
+                  }
+
+                  h1 {
+                    font-size: 32px;
+                  }
+                }
+
+                p {
+                  font-size: 15px;
+                  max-width: 95%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+
+              .background_bg {
+                @include qC;
+                max-width: 85%;
+              }
+            }
+
+            #backgroundL {
+              height: 350px;
+            }
+
+            #backgroundR {
+              height: 210px;
+              padding-top: 40px;
+            }
+          }
+        }
+      }
+    }
+
+    // Jojos
+    #jojos {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .jojos_heading {
+        padding-bottom: 30px;
+        img {
+          display: none;
+        }
+
+        h1 {
+          font-size: 32px;
+        }
+      }
+
+      .jojos_box {
+        width: 100%;
+        max-width: 95%;
+
+        .jojo_row_holder {
+          margin-bottom: 10px !important;
+
+          &:last-child {
+            margin-bottom: 0 !important;
+          }
+          .jojo {
+            .jojo_side {
+              width: 100%;
+              justify-content: center;
+              height: 250px;
+
+              .jojo_side_img_holder {
+                border-radius: 50%;
+                max-width: 180px;
+                height: 180px;
+              }
+
+              .jojo_side_text {
+                text-align: center;
+
+                h2 {
+                  font-size: 28px;
+                }
+
+                p {
+                  font-size: 15px;
+                  max-width: 90%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 419px) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 280px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 26px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    // Background
+    #background {
+      padding-bottom: 15px;
+      .background_cnt {
+        max-width: 100%;
+        .background_cnt_box {
+          .background_cnt_row {
+            .background_cnt_side {
+              width: 100%;
+
+              .background_text {
+                div {
+                  justify-content: center;
+
+                  h1 {
+                    font-size: 26px;
+                  }
+                }
+
+                p {
+                  font-size: 14px;
+                  max-width: 90%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Jojos
+    #jojos {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .jojos_heading {
+        padding-bottom: 30px;
+        img {
+          display: none;
+        }
+
+        h1 {
+          font-size: 26px;
+        }
+      }
+
+      .jojos_box {
+        width: 100%;
+        max-width: 95%;
+
+        .jojo_row_holder {
+          margin-bottom: 70px !important;
+
+          &:last-child {
+            margin-bottom: 0 !important;
+          }
+          .jojo {
+            .jojo_side {
+              width: 100%;
+              justify-content: center;
+              height: 100%;
+
+              .jojo_side_img_holder {
+                border-radius: 50%;
+                max-width: 150px;
+                height: 150px;
+              }
+
+              .jojo_side_text {
+                text-align: center;
+                padding-top: 40px;
+
+                h2 {
+                  font-size: 23px;
+                }
+
+                p {
+                  font-size: 14px;
+                  max-width: 95%;
+                  @include qC;
+                  margin-bottom: 20px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 260px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 35px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    // Background
+    #background {
+      padding-bottom: 15px;
+      .background_cnt {
+        max-width: 100%;
+        .background_cnt_box {
+          .background_cnt_row {
+            .background_cnt_side {
+              width: 100%;
+              text-align: left;
+
+              .background_text {
+                div {
+                  justify-content: flex-start;
+
+                  h1 {
+                    font-size: 26px;
+                  }
+                }
+
+                p {
+                  font-size: 14.3px;
+                  max-width: 95%;
+                  @include qC;
+                  margin-left: 0 !important;
+                  margin-bottom: 20px !important;
+
+                  &:last-child {
+                    margin-bottom: 0 !important;
+                  }
+                }
+              }
+
+              .background_bg {
+                max-width: 100%;
+              }
+            }
+
+            #backgroundL {
+              max-width: 70%;
+              height: 360px;
+            }
+            #backgroundR {
+              max-width: 30%;
+              height: 360px;
+              padding-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 370px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 36px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 320px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 45px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 420px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 55px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 520px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 60px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 55px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt {
+    // Top
+    #top {
+      height: 570px;
+
+      .top_bg {
+        .top_bg_overlay {
+          div {
+            padding-top: 120px;
+            max-width: 85%;
+
+            h1 {
+              font-size: 65px;
+              padding-bottom: 5px;
+            }
+
+            p {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
