@@ -10,15 +10,18 @@ const TOP_S4 = BASE_URL + "products/diamonds-are-unbreakable/daub-bg.webp";
 const TOP_S5 = BASE_URL + "products/golden-wind/gw-bg.webp";
 const TOP_S6 = BASE_URL + "products/stone-ocean/so-bg.webp";
 
-const TOP_S1_IMG = BASE_URL + "products/phantom-blood/figures/collection.webp";
+const TOP_S1_IMG =
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/phantom-blood/figures/collection.webp";
 const TOP_S2_IMG =
-  BASE_URL + "products/battle-tendency/figures/collection.webp";
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/battle-tendency/figures/collection.webp";
 const TOP_S3_IMG =
-  BASE_URL + "products/stardust-crusaders/figures/collection.webp";
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/stardust-crusaders/figures/collection.webp";
 const TOP_S4_IMG =
-  BASE_URL + "products/diamonds-are-unbreakable/figures/collection.webp";
-const TOP_S5_IMG = BASE_URL + "products/golden-wind/figures/collection.webp";
-const TOP_S6_IMG = BASE_URL + "products/stone-ocean/figures/collection.webp";
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/diamonds-are-unbreakable/figures/collection.webp";
+const TOP_S5_IMG =
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/golden-wind/figures/collection.webp";
+const TOP_S6_IMG =
+  "https://raw.githubusercontent.com/mxrked/OnlyJojo_CDN/main/products/stone-ocean/figures/collection.webp";
 
 // Info
 const INFO = BASE_URL + "backgrounds/info/info-bg.webp";
