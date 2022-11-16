@@ -1,0 +1,164 @@
+@import "../all/colors/Colors.scss";
+@import "../all/fonts/Fonts.scss";
+@import "../all/mixins/Mixins.scss";
+
+//! Non Responsive
+// Back To Top
+.back_to_top {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: -120px;
+  right: 20px;
+  background-color: transparent;
+  z-index: 400;
+  @include tLC;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"),
+    pointer !important;
+
+  &:hover {
+    img {
+      filter: drop-shadow(0 1px 1px black);
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// Loading
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 990;
+  background-color: white;
+  @include tLC;
+
+  img {
+    max-width: 120px;
+    display: none;
+  }
+}
+
+// Language Picker
+#languagePicker {
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  width: 40px;
+  height: 80px;
+  z-index: 400;
+
+  div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 70%;
+    filter: brightness(90%);
+    overflow: hidden;
+    background-color: ghostwhite;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      filter: brightness(100%);
+    }
+
+    button {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      z-index: 5;
+      cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"),
+        pointer !important;
+    }
+
+    .flag {
+      z-index: 4;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      border-radius: 70%;
+    }
+  }
+}
+
+// Creator Tools
+#creatorTools {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  max-width: 500px;
+  z-index: 800;
+  background-color: ghostwhite;
+  transform: translateY(200px);
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+    font-family: $P;
+    padding: 10px;
+
+    h1 {
+      font-weight: $Bold;
+    }
+  }
+
+  div {
+    display: none;
+    justify-content: flex-start;
+
+    button {
+      margin: 10px;
+      padding: 10px;
+      width: 100%;
+      max-width: 95%;
+      display: block;
+    }
+  }
+}
+
+//! Responsive
+@media all and (max-width: 1995px) {
+}
+
+@media all and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 419px) {
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

@@ -1,0 +1,722 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+@font-face {
+  font-family: SFFedora;
+  src: url("../../all/fonts/SFFedora.ttf");
+}
+
+#infoCnt #top {
+  height: 600px;
+}
+
+#infoCnt #top .top_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+#infoCnt #top .top_bg .top_bg_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#infoCnt #top .top_bg .top_bg_overlay div {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  -webkit-filter: drop-shadow(0 2px 2px black);
+          filter: drop-shadow(0 2px 2px black);
+}
+
+#infoCnt #top .top_bg .top_bg_overlay div h1 {
+  font-family: SFFedora;
+  font-size: clamp(4rem, 5vw, 5rem);
+  padding-bottom: 10px;
+}
+
+#infoCnt #top .top_bg .top_bg_overlay div p {
+  font-family: "Poppins";
+  font-size: 23px;
+}
+
+#infoCnt #background {
+  padding-top: 180px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+#infoCnt #background .background_cnt {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto !important;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text {
+  max-width: 85%;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div h1 {
+  font-family: SFFedora;
+  font-size: 55px;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div img {
+  max-width: 60px;
+  margin-left: 30px;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p a {
+  color: #870fac;
+  font-weight: 700;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p a:hover {
+  color: #a130c3;
+}
+
+#infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 80%;
+}
+
+#infoCnt #jojos {
+  padding-top: 110px;
+  padding-bottom: 95px;
+  overflow: hidden;
+}
+
+#infoCnt #jojos .jojos_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+#infoCnt #jojos .jojos_heading h1 {
+  font-family: SFFedora;
+  font-size: 55px;
+}
+
+#infoCnt #jojos .jojos_heading img {
+  max-width: 60px;
+  margin-left: 30px;
+}
+
+#infoCnt #jojos .hover_hint {
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+  font-family: "Poppins";
+  font-size: 17px;
+}
+
+#infoCnt #jojos .jojos_box {
+  max-width: 95%;
+  width: 100%;
+  margin: auto !important;
+  overflow: hidden;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto !important;
+  margin-bottom: 50px !important;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder:last-child {
+  margin-bottom: 0;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder {
+  width: 290px;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder:hover .jojo_details {
+  opacity: 1;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder img {
+  position: absolute;
+  width: 100%;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder .jojo_details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: "Poppins";
+  overflow: hidden;
+  overflow-y: auto;
+  opacity: 0;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder .jojo_details .jojo_detail {
+  display: -ms-grid;
+  display: grid;
+  padding: 10px;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder .jojo_details .jojo_detail .jojo_detail_name {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder .jojo_details .jojo_detail .jojo_detail_text {
+  font-size: 13px;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text {
+  text-align: right;
+  max-width: 650px;
+  width: 100%;
+  margin: auto !important;
+  font-family: "Poppins";
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text h2 {
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text p {
+  font-size: 18px;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text a {
+  display: inline-block;
+  color: #870fac;
+  font-weight: 700;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+#infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text a:hover {
+  color: #a130c3;
+}
+
+@media all and (max-width: 1995px) {
+  #infoCnt #top {
+    height: 550px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 90px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #infoCnt #top {
+    height: 550px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 50px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 21px;
+  }
+  #infoCnt #background {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  #infoCnt #background .background_cnt {
+    max-width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div img {
+    display: none;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div h1 {
+    font-size: 36px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p {
+    font-size: 16px;
+    max-width: 90%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_bg {
+    margin: auto !important;
+    max-width: 600px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundL {
+    height: 350px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundR {
+    height: 300px;
+  }
+  #infoCnt #jojos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #infoCnt #jojos .jojos_heading {
+    padding-bottom: 30px;
+  }
+  #infoCnt #jojos .jojos_heading img {
+    display: none;
+  }
+  #infoCnt #jojos .jojos_heading h1 {
+    font-size: 36px;
+  }
+  #infoCnt #jojos .hover_hint {
+    display: none;
+  }
+  #infoCnt #jojos .jojos_box {
+    width: 100%;
+    max-width: 95%;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder {
+    margin-bottom: 10px !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder:last-child {
+    margin-bottom: 0 !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 280px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder {
+    border-radius: 50%;
+    max-width: 210px;
+    height: 210px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder .jojo_details {
+    display: none;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text {
+    text-align: center;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text h2 {
+    font-size: 28px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text p {
+    font-size: 16px;
+    max-width: 90%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #infoCnt #top {
+    height: 350px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 50px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 36px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 16px;
+  }
+  #infoCnt #background {
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+  #infoCnt #background .background_cnt {
+    max-width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div img {
+    display: none;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div h1 {
+    font-size: 32px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p {
+    font-size: 15px;
+    max-width: 95%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_bg {
+    margin: auto !important;
+    max-width: 85%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundL {
+    height: 350px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundR {
+    height: 210px;
+    padding-top: 40px;
+  }
+  #infoCnt #jojos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #infoCnt #jojos .jojos_heading {
+    padding-bottom: 30px;
+  }
+  #infoCnt #jojos .jojos_heading img {
+    display: none;
+  }
+  #infoCnt #jojos .jojos_heading h1 {
+    font-size: 32px;
+  }
+  #infoCnt #jojos .jojos_box {
+    width: 100%;
+    max-width: 95%;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder {
+    margin-bottom: 10px !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder:last-child {
+    margin-bottom: 0 !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 250px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder {
+    border-radius: 50%;
+    max-width: 180px;
+    height: 180px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text {
+    text-align: center;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text h2 {
+    font-size: 28px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text p {
+    font-size: 15px;
+    max-width: 90%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media all and (max-width: 419px) {
+  #infoCnt #top {
+    height: 280px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 26px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 15px;
+  }
+  #infoCnt #background {
+    padding-bottom: 15px;
+  }
+  #infoCnt #background .background_cnt {
+    max-width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side {
+    width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div h1 {
+    font-size: 26px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p {
+    font-size: 14px;
+    max-width: 90%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  #infoCnt #jojos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #infoCnt #jojos .jojos_heading {
+    padding-bottom: 30px;
+  }
+  #infoCnt #jojos .jojos_heading img {
+    display: none;
+  }
+  #infoCnt #jojos .jojos_heading h1 {
+    font-size: 26px;
+  }
+  #infoCnt #jojos .jojos_box {
+    width: 100%;
+    max-width: 95%;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder {
+    margin-bottom: 70px !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder:last-child {
+    margin-bottom: 0 !important;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_img_holder {
+    border-radius: 50%;
+    max-width: 150px;
+    height: 150px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text {
+    text-align: center;
+    padding-top: 40px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text h2 {
+    font-size: 23px;
+  }
+  #infoCnt #jojos .jojos_box .jojo_row_holder .jojo .jojo_side .jojo_side_text p {
+    font-size: 14px;
+    max-width: 95%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #infoCnt #top {
+    height: 260px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 16px;
+  }
+  #infoCnt #background {
+    padding-bottom: 15px;
+  }
+  #infoCnt #background .background_cnt {
+    max-width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side {
+    width: 100%;
+    text-align: left;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text div h1 {
+    font-size: 26px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p {
+    font-size: 14.3px;
+    max-width: 95%;
+    margin: auto !important;
+    margin-left: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_text p:last-child {
+    margin-bottom: 0 !important;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row .background_cnt_side .background_bg {
+    max-width: 100%;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundL {
+    max-width: 70%;
+    height: 360px;
+  }
+  #infoCnt #background .background_cnt .background_cnt_box .background_cnt_row #backgroundR {
+    max-width: 30%;
+    height: 360px;
+    padding-top: 0;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt #top {
+    height: 370px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt #top {
+    height: 320px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 45px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 19px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #infoCnt #top {
+    height: 420px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #infoCnt #top {
+    height: 520px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 60px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 55px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #infoCnt #top {
+    height: 570px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div {
+    padding-top: 120px;
+    max-width: 85%;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div h1 {
+    font-size: 65px;
+    padding-bottom: 5px;
+  }
+  #infoCnt #top .top_bg .top_bg_overlay div p {
+    font-size: 23px;
+  }
+}
+/*# sourceMappingURL=Info.module.css.map */

@@ -1,0 +1,207 @@
+.overrides_Home .overrides_Top .slick-slider {
+  line-height: 0;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-slide {
+  outline: none !important;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-slide div {
+  padding: 0px;
+  border: none;
+  margin: 0;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-prev::before {
+  font-size: 24px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 50%;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-next {
+  right: 3% !important;
+  z-index: 1;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-next::before {
+  font-size: 24px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 50%;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-list .slick-track .overrides_Top_Slider_Slide_Text,
+.overrides_Home .overrides_Top .slick-slider .slick-list .slick-track .overrides_Top_Slider_Slide_Image {
+  opacity: 0;
+  visibility: hidden;
+  top: -50px;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-list .slick-track .slick-active .overrides_Top_Slider_Slide_Text,
+.overrides_Home .overrides_Top .slick-slider .slick-list .slick-track .slick-active .overrides_Top_Slider_Slide_Image {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-dots {
+  bottom: 30px !important;
+  right: 30px !important;
+  max-width: 200px;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-dots li button {
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-dots li button::before {
+  color: white;
+  font-size: 20px;
+}
+
+.overrides_Home .overrides_Top .slick-slider .slick-dots .slick-active button::before {
+  color: #870fac;
+}
+
+.overrides_Home .overrides_Products .slick-slider {
+  line-height: 0;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-slide {
+  outline: none !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  opacity: 0.5;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  pointer-events: none;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-center {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  pointer-events: auto;
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-dots {
+  padding-top: 40px !important;
+  bottom: 0;
+  position: relative !important;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-dots li button {
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-dots li button::before {
+  color: #870fac;
+  font-size: 20px;
+}
+
+.overrides_Home .overrides_Products .slick-slider .slick-dots .slick-active button::before {
+  color: #870fac;
+}
+
+@media all and (max-width: 1995px) {
+  .overrides_Home .overrides_Products .slick-slider .slick-slide {
+    opacity: 0.5;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    pointer-events: none;
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-center {
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    pointer-events: auto !important;
+    cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"), pointer;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .overrides_Home .overrides_Products .slick-slider .slick-slide {
+    outline: none !important;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    pointer-events: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .overrides_Home .overrides_Top .slick-dots {
+    max-width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-slide {
+    outline: none !important;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    pointer-events: auto;
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-dots {
+    max-width: 300px !important;
+    position: relative;
+    margin: auto !important;
+  }
+}
+
+@media all and (max-width: 419px) {
+  .overrides_Home .overrides_Products .slick-slider .slick-slide {
+    outline: none !important;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    pointer-events: auto;
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-dots {
+    max-width: 85% !important;
+    position: relative;
+    margin: auto !important;
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-dots li {
+    margin: 5px !important;
+  }
+  .overrides_Home .overrides_Products .slick-slider .slick-dots li button::before {
+    font-size: 15px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .overrides_Home .overrides_Products .slick-slider .slick-dots {
+    padding-top: 0 !important;
+  }
+}
+
+/*! Ipad */
+/*! iPad Pro */
+/*! Laptops */
+/*# sourceMappingURL=Overrides.css.map */

@@ -1,0 +1,26 @@
+@mixin bGSU() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin qC() {
+  margin: auto !important;
+}
+
+@mixin tLC() {
+  display: grid;
+  place-items: center;
+}
+
+@mixin customCursor() {
+  cursor: url("http://basicallyeasy.com/NextJSCDNS/onlyjojo/icons/arrow.gif"),
+    pointer;
+}
+
+@mixin containedBG() {
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
