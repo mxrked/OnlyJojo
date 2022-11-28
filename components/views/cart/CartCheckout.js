@@ -380,7 +380,7 @@ const CartCheckout = () => {
         }
       }
 
-      LinkPushing(router, "/", "onlyjojo/");
+      LinkPushing(router, "/", "/");
       sessionStorage.setItem("Checkout Successful", true);
     });
   }, []);
