@@ -476,7 +476,7 @@ const Filtering = () => {
               <button
                 id="showAll"
                 onClick={() => {
-                  LinkPushing(router, "/store/", "onlyjojo/store/");
+                  LinkPushing(router, "/store", "/store");
                   document.getElementById("filterSearchByNameIpt").value = "";
                   document.getElementById("filterSearchByTypeIpt").value = "";
                 }}
