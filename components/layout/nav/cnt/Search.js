@@ -90,7 +90,7 @@ const Search = () => {
         }
 
         if (env == "production") {
-          router.push("/next-projects/onlyjojo/" + route);
+          router.push("/" + route);
         }
       }
     }
